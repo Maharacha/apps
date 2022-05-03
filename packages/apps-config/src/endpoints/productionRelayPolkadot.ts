@@ -96,7 +96,8 @@ export function createPolkadot (t: TFunction): EndpointOption {
         text: t('rpc.polkadot.centrifuge', 'Centrifuge', { ns: 'apps-config' }),
         providers: {
           Centrifuge: 'wss://fullnode.parachain.centrifuge.io',
-          OnFinality: 'wss://centrifuge-parachain.api.onfinality.io/public-ws'
+          OnFinality: 'wss://centrifuge-parachain.api.onfinality.io/public-ws',
+          Dwellir: 'wss://centrifuge-rpc.dwellir.com'
         }
       },
       {
