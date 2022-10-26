@@ -238,8 +238,7 @@ export function createPolkadot (t: TFunction): EndpointOption {
         text: t('rpc.polkadot.moonbeam', 'Moonbeam', { ns: 'apps-config' }),
         providers: {
           'Moonbeam Foundation': 'wss://wss.api.moonbeam.network',
-          OnFinality: 'wss://moonbeam.api.onfinality.io/public-ws',
-          Dwellir: 'wss://moonbeam-rpc.dwellir.com'
+          OnFinality: 'wss://moonbeam.api.onfinality.io/public-ws'
         }
       },
       {

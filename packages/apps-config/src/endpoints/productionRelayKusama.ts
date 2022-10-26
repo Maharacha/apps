@@ -303,8 +303,7 @@ export function createKusama (t: TFunction): EndpointOption {
         text: t('rpc.kusama.moonriver', 'Moonriver', { ns: 'apps-config' }),
         providers: {
           'Moonbeam Foundation': 'wss://wss.api.moonriver.moonbeam.network',
-          OnFinality: 'wss://moonriver.api.onfinality.io/public-ws',
-          Dwellir: 'wss://moonriver-rpc.dwellir.com'
+          OnFinality: 'wss://moonriver.api.onfinality.io/public-ws'
           // Pinknode: 'wss://rpc.pinknode.io/moonriver/explorer' // https://github.com/polkadot-js/apps/issues/7058
         }
       },
